@@ -112,7 +112,7 @@ jobs:
           application_name: api-java-clientes
           environment_name: Api-java-clientes-env
           region: us-east-2
-          deployment_package: api-solicitacoes.jar
+          deployment_package: api-java-clientes.jar
           version_label: ${{ github.sha }}
 
       - name: Limpar arquivos temporários
